@@ -1,0 +1,119 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #edf0f5;
+}
+
+/*Div Parte1*/
+
+div#Parte1 {
+    position: absolute;
+    width: 36%;
+    margin-left: 13.5%;
+    margin-top: 15%;
+}
+
+p#comentarioFacebook {
+    font-family: sans-serif;
+    font-size: 175%;
+    margin-top: 3%;
+    color: #1C1C1C;
+}
+
+/*Div Parte2*/
+
+div#Parte2 { 
+    background-color: white;
+    position: absolute;
+    text-align: center;
+    padding: 0.7%;
+    width: 27.6%;
+    height: 49%;
+    margin-top: 9.5%;
+    margin-left: 56%;
+    box-shadow: 0px 0px 10px rgba(0,0,0,.3);
+    border-radius: 10px; /*Deixa a borda da Parte2 arredondada*/
+}
+
+input#txtEmail, input#txtSenha, input#bntIniciar { /*Pra amenizar código*/
+    margin: 1.9%;
+    width: 90%;
+    height: 15%;
+    border-radius: 10px;
+    border-style: solid; /*pra deixar borda completa*/
+    border-color: #DCDCDC; /*mudando cor da borda*/
+}
+
+
+input#txtEmail, input#txtSenha {
+    font-family: sans-serif;
+    font-size: 103%;
+    padding-left: 4%;
+}
+
+input#bntIniciar {
+    font-family: sans-serif;
+    font-size: 125%;
+    font-weight: bold;
+    color: white;
+    background-color: #1877f2;
+    width: 96%;
+}
+
+input#bntIniciar:hover {
+    background-color: #1f74e4;
+    transition: 0.5s;
+}
+
+p#palavra-passe {	
+    font-family: sans-serif;
+    font-size: 90%;
+    color: #1E90FF;
+    margin-top: 2%;
+}
+
+p#palavra-passe:hover {
+    text-decoration: underline #1E90FF;
+}
+
+p#borda {
+    margin-top: 5%;
+    border-bottom: 1px solid #DCDCDC;
+}
+
+input#btnCriar {
+    font-family: sans-serif;
+    font-size: 107%;
+    font-weight: bold;
+    background-color: #24c224;
+    color: white;
+    border-radius: 10px;
+    width: 44.5%;
+    height: 15%;
+    margin-top: 6%;
+    border: none; /*Tirar borda*/
+}
+
+input#btnCriar:hover {
+    background-color: #2bb12b;
+    transition: 0.5s;
+}
+
+p#cria-uma-pagina {
+    font-family: sans-serif;
+    font-size: 87%;
+    margin-left: 56.9%;
+    margin-top: 37%;
+    position: absolute;
+}
+
+p#cria-uma-pagina b:hover {
+    text-decoration: underline;
+}
